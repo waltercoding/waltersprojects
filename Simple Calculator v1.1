@@ -1,0 +1,17 @@
+num1 = input("Enter number 1: ")
+num2 = input("Enter number 2: ")
+mathtype = input("Enter a type (addition/subtraction/multiplication/division): ")
+if mathtype == "addition":
+    result = float(num1) + float(num2)
+    print("The answer is " + str(result) + ".")
+elif mathtype == "subtraction":
+    result = float(num1) - float(num2)
+    print("The answer is " + str(result) + ".")
+elif mathtype == "multiplication":
+    result = float(num1) * float(num2)
+    print("The answer is " + str(result) + ".")
+elif mathtype == "division":
+    result = float(num1) / float(num2)
+    print("The answer is " + str(result) + ".")
+else:
+    print("Invalid option.")
